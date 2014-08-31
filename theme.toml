@@ -1,0 +1,15 @@
+name = "simple"
+license = "MIT"
+source_repo = "https://github.com/tasdomas/simple"
+description = "Minimalistic Hugo theme"
+tags = ["blog", "company"]
+
+[author]
+    name = "domas"
+    email = "domas@monkus.lt"
+    url = "domas.monkus.lt"
+
+[original]
+    author =  "alexfinn"
+    repo = "https://github.com/AlexFinn/simple-a"
+
