@@ -125,14 +125,14 @@ footer {
 .posts li p {
   margin-bottom: 25px;
 }
-
+/*
 .posts span {
   float: right;
   text-transform: uppercase;
   font-size: 0.70em;
   color: #777777;
 }
-
+*/
 .post {
   margin: auto;
   padding-bottom: 20px;
@@ -166,6 +166,10 @@ p {
 
 .post .content ol {
   margin-bottom: 25px;
+}
+
+.post .content img {
+  margin: 0.5em;
 }
 
 .post-header {
