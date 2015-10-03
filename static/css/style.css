@@ -103,6 +103,25 @@ footer {
   border-bottom: 1px solid #989898;
 }
 
+.navbar ul.menu {
+    margin: auto;
+    max-width: 980px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+.navbar ul.menu li {
+    float: right;
+    padding: 0.2em 0 0.5em 3em;
+    list-style-type: none;
+}
+
+.navbar ul.menu li a {
+    font-weight: bold;
+    color: black;
+}
+
 .container {  
   margin: 0 auto;
   max-width: 960px;

@@ -6,4 +6,16 @@
 	    </a>
           </div>
   </div>
+  <ul class="menu">
+  {{ range .Site.Menus.main }}
+  <li>
+    <a class="" href="{{.Url}}">
+      {{ .Pre }}
+      <span>{{ .Name }}</span>
+    </a>
+  </li>
+  {{end}}
+</ul>
+<!-- sidebar menu end-->
+    </div>
 </div>
