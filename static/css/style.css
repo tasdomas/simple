@@ -139,7 +139,6 @@ footer {
 
 .posts li {  
   line-height: 90%;
-  list-style: none;
 }
 .posts li p {
   margin-bottom: 25px;
@@ -180,6 +179,9 @@ p {
 
 .post .content li {
   line-height: 150%;
+}
+
+.post .content ul li {
   list-style: square;
 }
 
