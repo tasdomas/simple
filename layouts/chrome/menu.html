@@ -1,7 +1,7 @@
 <div class="navbar navbar-fixed-top">        
   <div id="navbar-inner">
           <div id="logo">
-            <a href="{{ .Site.BaseUrl }}/">
+            <a href="{{ .Site.BaseURL }}/">
 	      <h1>{{ .Site.Title }}</h1>
 	    </a>
           </div>
@@ -9,7 +9,7 @@
   <ul class="menu">
   {{ range .Site.Menus.main }}
   <li>
-    <a class="" href="{{.Url}}">
+    <a class="" href="{{.URL}}">
       {{ .Pre }}
       <span>{{ .Name }}</span>
     </a>
